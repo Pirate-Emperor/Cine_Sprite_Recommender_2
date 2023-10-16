@@ -34,10 +34,22 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the main Python script:
+Run the main Python script for simple recommendation:
 
 ```bash
-python main.py
+python Recommender_Sim.py
+```
+
+Run the main Python script for content-based filtering recommendation:
+
+```bash
+python Recommender_Con.py
+```
+
+Run the main Python script for collaborative filtering recommendation:
+
+```bash
+python Recommender_Col.py
 ```
 
 The script will train the ML model using the IMDb dataset and generate movie recommendations based on user input.
